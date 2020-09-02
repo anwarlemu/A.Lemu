@@ -9,13 +9,12 @@
 		header{text-align: center; padding-top: 50px;}
 	    h1{font-size: 50px;font-family: Advent Pro}
 		.big{font-size: 30px}
-		p{font-size: 18px; font-family: Advent Pro;}
+		p{font-size: 18px; font-family: Advent Pro; padding-left: 300px; padding-right: 300px;}
 		header img{border-radius: 200px; widows: 400px; border: 5px solid khaki;}
 		button{font-family: Advent Pro;}
 		a{text-decoration: none;}
 		body{text-align: center;}
 		b{font-family: Advent Pro}
-		.contact{padding-right: 300px; padding-left: 300px;}
 		.topnav{background-color: lightgoldenrodyellow; overflow: hidden; padding-top: 15px; padding-bottom: 15px;}
 		.topnav a{
 			color: #201e1f;
@@ -28,11 +27,13 @@
 		.button{
 			border: none;
 			font-family: Advent Pro;
+			background-color: #201e1f;
 			padding: 15px 30px;
 			border-radius: 15px;}
 		.button button{
 			background-color: #201e1f;}
 		.bio{padding-left: 300px; padding-right: 300px;}
+		.experiences{padding-right: 300px; padding-left: 300px; font-family: Advent Pro;}
 		.footer {
 			color: #201e1f; overflow: hidden; padding-bottom: 2px; padding-top: 15px;}
 		.footer footer{
@@ -43,10 +44,61 @@
 			text-decoration: none;
 			opacity: 60%;
 			font-size: 12px;}
+		.card-block {
+			display: grid;
+			grid-template-columns: 1fr;
+			width: : 100%; 
+			}
+		.card {
+			font-family: Advent Pro;
+			/*background: url(img/profile.jpg);*/
+			background-size: cover;
+			background-position: 0px 390px;
+			padding: 50px;
+			max-width: 100%;
+    		width: 50%;
+    		font-size: 1.2rem;
+    		color: #708d81;
+			position: relative;
+			}
+
+		.card a {
+			font-size: 3rem;
+    		color: khaki;
+			}
+
+			.card a img {
+    		text-align: center;
+
+			}
+		.overlay {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: rgba(0,0,0, 0.5);
+			top:0;
+			left: 0; 
+			}
+		.btn-img{
+			height: 150px;
+    		width: 522px;
+    		overflow: hidden;
+    		position: relative;
+    		margin: 0 auto;
+		}	
+		.btn-img img{
+			text-align: center;
+    		height: 500px;
+    		width: 500px;
+    		overflow: hidden;
+    		position: absolute;
+    		left: 0;
+    		bottom: -189px;
+		}
 	
 
 
-	</style>
+</style>
 
 	<div class="topnav">
 		<b style="float: left; font-size: 17px; padding-left: 35px;">A.LEMU</b>
@@ -82,18 +134,26 @@
 	+234 807 975 9554
 </p>
 </div>
+
 <div class="button">
-	<button style="background-color: white;">
-		<a href="https://instagram.com/a.lemu_" target="_blank" title="Instagram" style="color: #708d81; padding-left: 20px; padding-right: 20px;">
-		Instagram
-		</a>
-	</button>
-<br><br>
-<button style="background-color: white">
-	<a href="https://twitter.com/a_lemu17" target="_blank" title="Twitter" style="color: #708d81; padding-right: 29px; padding-left: 29px;">
-	Twitter
+	<div class="block">
+<div class="btn-img">
+	<a href="https://instagram.com/a.lemu_" style="text-decoration: none;">
+		<img src="img/instagram.jpg" style="text-align: center;">
 	</a>
-</button>
+</div> 
+</div>
+
+<br><br>
+
+<div class="button">
+	<div class="block">
+<div class="btn-img">
+	<a href="https://twitter.com/a_lemu17" style="text-decoration: none;">
+		<img src="img/twitter.jpg" style="text-align: center;">
+	</a>
+</div> 
+</div>
 
 </div>
 <br><br><br>
