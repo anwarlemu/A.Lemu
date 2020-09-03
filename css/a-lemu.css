@@ -87,3 +87,8 @@ b{font-family: Bree Serif, Advent Pro}
 	left: 0;
 	bottom: -189px;
 }
+
+.contact p{
+	color: lightpink; 
+	font-size: 28px
+}
