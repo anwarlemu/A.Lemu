@@ -1,7 +1,8 @@
 header{text-align: center; padding-top: 50px;}
-h1{font-size: 50px;font-family: Bree Serif, Advent Pro}
+h1{font-size: 50px;font-family: Bree Serif, Advent Pro; padding-left: 300px; padding-right: 300px;}
+h2{padding-right: 300px; padding-left: 300px;}
 .big{font-size: 30px}
-p{font-size: 18px; font-family: Bree Serif, Advent Pro; padding-left:}
+p{font-size: 18px; font-family: Bree Serif, Advent Pro; padding-left: 150px; padding-right: 150px;}
 header img{border-radius: 200px; widows: 400px; border: 5px solid lightpink;}
 button{font-family: Bree Serif, Advent Pro;}
 a{text-decoration: none;}
@@ -25,7 +26,7 @@ b{font-family: Bree Serif, Advent Pro}
 .button button{
 	background-color: #201e1f;}
 .bio{padding-left: 300px; padding-right: 300px;}
-.experiences{padding-right: 300px; padding-left: 300px; font-family: Bree Serif, Advent Pro;}
+.experiences{padding-right: 150px; padding-left: 150px; font-family: Bree Serif, Advent Pro;}
 .footer {
 	color: #201e1f; overflow: hidden; padding-bottom: 2px; padding-top: 15px;}
 .footer footer{
