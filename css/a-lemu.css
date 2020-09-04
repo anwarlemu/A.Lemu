@@ -43,7 +43,6 @@ b{font-family: Bree Serif, Advent Pro}
 	}
 .card {
 	font-family: Bree Serif, Advent Pro;
-	/*background: url(img/profile.jpg);*/
 	background-size: cover;
 	background-position: 0px 390px;
 	padding: 50px;
@@ -56,7 +55,7 @@ b{font-family: Bree Serif, Advent Pro}
 
 .card a {
 	font-size: 3rem;
-	color: khaki;
+	color: lightpink;
 	}
 
 	.card a img {
@@ -92,3 +91,4 @@ b{font-family: Bree Serif, Advent Pro}
 	color: lightpink; 
 	font-size: 28px
 }
+
