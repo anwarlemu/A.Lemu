@@ -1,37 +1,39 @@
 header{text-align: center; padding-top: 50px;}
-h1{font-size: 50px;font-family: Bree Serif, Advent Pro;}
+h1{font-size: 50px;font-family: Advent Pro;}
 .big{font-size: 30px}
-p{font-size: 18px; font-family: Bree Serif, Advent Pro; padding-left: 150px; padding-right: 150px;}
-header img{border-radius: 200px; widows: 400px; border: 5px solid lightpink;}
-button{font-family: Bree Serif, Advent Pro;}
+p{font-size: 18px; font-family: Advent Pro; padding-left: 150px; padding-right: 150px;}
+header img{border-radius: 200px; widows: 400px; border: 5px solid #49429b;}
+button{font-family: Advent Pro;}
 a{text-decoration: none;}
 body{text-align: center;}
-b{font-family: Bree Serif, Advent Pro}
+b{
+	font-family: Advent Pro
+	color: #d28f68 ;}
 .topnav a{
 	color: #e0d2db;
 	text-align: right;
 	padding: 35px 35px;
-	font-family: Bree Serif, Advent Pro;
+	font-family: Advent Pro;
 	text-decoration: none;}
 .topnav a.active{
 	color: #49429b;}
 .button{
 	border: none;
-	font-family: Bree Serif, Advent Pro;
+	font-family: Advent Pro;
 	background-color: #1d1b55;
 	padding: 15px 30px;
 	border-radius: 15px;}
 .button button{
 	background-color: #1d1b55;}
 .bio{}
-.experiences{font-family: Bree Serif, Advent Pro;}
+.experiences{font-family: Advent Pro;}
 .footer {
 	color: #1d1b55; overflow: hidden; padding-bottom: 2px; padding-top: 15px;}
 .footer footer{
 	color: lightgrey;
 	text-align: left;
 	padding: 35px 35px;
-	font-family: Oswald,Advent Pro;
+	font-family: Oswald, Advent Pro;
 	text-decoration: none;
 	opacity: 60%;
 	font-size: 12px;}
@@ -41,7 +43,7 @@ b{font-family: Bree Serif, Advent Pro}
 	width: : 100%; 
 	}
 .card {
-	font-family: Bree Serif, Advent Pro;
+	font-family: Advent Pro;
 	background-size: cover;
 	background-position: 0px 390px;
 	padding: 50px;
@@ -87,7 +89,7 @@ b{font-family: Bree Serif, Advent Pro}
 }
 
 .contact p{
-	color: lightpink; 
+	color: #d28f68; 
 	font-size: 28px
 }
 
