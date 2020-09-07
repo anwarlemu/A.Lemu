@@ -7,27 +7,26 @@ button{font-family: Bree Serif, Advent Pro;}
 a{text-decoration: none;}
 body{text-align: center;}
 b{font-family: Bree Serif, Advent Pro}
-.topnav{background-color: mistyrose; overflow: hidden; padding-top: 15px; padding-bottom: 15px;}
 .topnav a{
-	color: #201e1f;
-	text-align: center;
+	color: #e0d2db;
+	text-align: right;
 	padding: 35px 35px;
 	font-family: Bree Serif, Advent Pro;
 	text-decoration: none;}
 .topnav a.active{
-	color: black;}
+	color: #49429b;}
 .button{
 	border: none;
 	font-family: Bree Serif, Advent Pro;
-	background-color: #201e1f;
+	background-color: #1d1b55;
 	padding: 15px 30px;
 	border-radius: 15px;}
 .button button{
-	background-color: #201e1f;}
+	background-color: #1d1b55;}
 .bio{}
 .experiences{font-family: Bree Serif, Advent Pro;}
 .footer {
-	color: #201e1f; overflow: hidden; padding-bottom: 2px; padding-top: 15px;}
+	color: #1d1b55; overflow: hidden; padding-bottom: 2px; padding-top: 15px;}
 .footer footer{
 	color: lightgrey;
 	text-align: left;
