@@ -1,11 +1,21 @@
 header{text-align: center; padding-top: 50px;}
 h1{font-size: 50px;font-family: Advent Pro;}
 .big{font-size: 30px}
-p{font-size: 18px; font-family: Advent Pro; padding-left: 150px; padding-right: 150px;}
+p{font-size: 1.8rem; font-family: Advent Pro; padding-left: 150px; padding-right: 150px;}
 header img{border-radius: 200px; widows: 400px; border: 5px solid #49429b;}
 button{font-family: Advent Pro;}
 a{text-decoration: none;}
-body{text-align: center;}
+body{text-align: center; margin: 0}
+.bg {    background-image: url(../img/new-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    content: '';
+    clear: both;
+    display: table;
+    background-position-x: center;
+    background-position-y: bottom;
+	height: 100vh;}
 b{
 	font-family: Advent Pro
 	color: #d28f68 ;}
@@ -93,3 +103,36 @@ b{
 	font-size: 28px
 }
 
+.home {
+	width: 30%;
+	display: table;
+	clear: both;
+	content: '';
+	margin-left: 2rem;
+	text-align: left;
+}
+
+.hero-text {
+			font-size: 1.3rem; 
+			color: #d28f68; 
+			padding-left: 0; 
+			padding-right: 0;  
+			text-align: left;
+		}
+
+.home-text p {
+	font-size: 1rem;
+}
+/* Media Queries*/
+
+@media only screen
+	and (min-device-width: 320px)
+	and (max-device-width: 480px) {
+		.bg {
+			background-position-x: 80%;
+		}
+
+		.home-text p {
+			font-size: 2.5rem; 
+		}
+	}
