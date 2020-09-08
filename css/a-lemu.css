@@ -243,7 +243,7 @@ b{
 
 		.home {
 			width: 80%;
-			margin-top: 15px;
+			margin-top: 165px;
 		}
 
 		.home-button a {
@@ -257,7 +257,65 @@ b{
   }
 
   @media only screen 
-  and (min-device-width: 375px) 
+  and (device-width: 736px) {
+  		.bg {
+			background-position-x: 80%;
+		}
+
+		.home-text p {
+			font-size: 2rem; 
+		}
+
+		.name b {
+			font-size: 9rem; 
+		}
+
+		.home {
+			width: 80%;
+			margin-top: 165px;
+		}
+
+		.home-button a {
+			font-size: 1.7rem;
+		}
+
+		.hero-text {
+			font-size: 1.8rem; 
+			margin-top: 30px;
+		}
+  }
+
+  @media only screen 
+  	(device-width: 414px) {
+  		.bg {
+			background-position-x: 80%;
+		}
+
+		.home-text p {
+			font-size: 2rem; 
+		}
+
+		.name b {
+			font-size: 9rem; 
+		}
+
+		.home {
+			width: 80%;
+			margin-top: 162px;
+		}
+
+		.home-button a {
+			font-size: 1.7rem;
+		}
+
+		.hero-text {
+			font-size: 1.8rem; 
+			margin-top: 30px;
+		}
+  }
+
+  @media only screen 
+  and (min-device-width: 775px) 
   and (max-device-width: 812px) {
   		.bg {
 			background-position-x: 80%;
