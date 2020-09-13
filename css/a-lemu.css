@@ -1,9 +1,9 @@
 header{text-align: center; padding-top: 50px;}
-h1{font-size: 50px;font-family: Overpass;}
+h1{font-size: 50px;font-family: futura pt;}
 .big{font-size: 30px}
-p{font-size: 1.8rem; font-family: Overpass; padding-left: 150px; padding-right: 150px;}
+p{font-size: 1.8rem; font-family: "futura pt"; padding-left: 150px; padding-right: 150px;}
 header img{border-radius: 200px; widows: 400px; border: 5px solid #49429b;}
-button{font-family: Overpass;}
+button{font-family: "futura pt";}
 a{text-decoration: none;}
 body{text-align: center; margin: 0}
 .bg {    background-image: url(../img/tokyo-bridge.jpg);
@@ -17,33 +17,33 @@ body{text-align: center; margin: 0}
     background-position-y: bottom;
 	height: 100vh;}
 b{
-	font-family: Overpass
+	font-family: "futura pt"
 	color: #d28f68 ;}
 .topnav a{
 	color: #e0d2db;
 	text-align: right;
 	padding: 35px 35px;
-	font-family: Overpass;
+	font-family: "futura pt";
 	text-decoration: none;}
 .topnav a.active{
 	color: #49429b;}
 .button{
 	border: none;
-	font-family: Overpass;
+	font-family: "futura pt";
 	background-color: #1d1b55;
 	padding: 15px 30px;
 	border-radius: 15px;}
 .button button{
 	background-color: #1d1b55;}
 .bio{}
-.experiences{font-family: Overpass;}
+.experiences{font-family: "futura pt";}
 .footer {
 	color: #1d1b55; overflow: hidden; padding-bottom: 2px; padding-top: 15px;}
 .footer footer{
 	color: lightgrey;
 	text-align: left;
 	padding: 35px 35px;
-	font-family: Overpass,Oswald,Advent Pro;
+	font-family: "futura pt",Oswald,Advent Pro;
 	text-decoration: none;
 	opacity: 60%;
 	font-size: 12px;}
@@ -53,7 +53,7 @@ b{
 	width: : 100%; 
 	}
 .card {
-	font-family: Overpass;
+	font-family: "futura pt";
 	background-size: cover;
 	background-position: 0px 390px;
 	padding: 50px;
@@ -120,16 +120,31 @@ b{
 			text-align: left;
 		}
 
-.home-text p {
-	font-size: 1rem;
+.home-text b {
+	font-size: 100px;
+	font-family: Overpass;
 }
 
 .home-button a {
-	 font-size: 1.3rem;
+	font-family: "futura pt";
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.home-button {
+	transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
 }
 
 .name b {
-	font-size: 7rem
+	font-size: 1.5rem
+
+}
+
+.sub-text p {
 
 }
 
@@ -137,302 +152,6 @@ b{
 /* Media Queries*/
 
 @media only screen
-	and (min-device-width: 320px)
-	and (max-device-width: 480px) {
-		.bg {
-			background-position-x: 80%;
-		}
-
-		.home-text p {
-			font-size: 2.5rem; 
-		}
-
-		.name b {
-			font-size: 13rem; 
-		}
-
-		.home {
-			width: 80%;
-			margin-top: 100px;
-		}
-
-		.home-button a {
-			font-size: 3rem;
-		}
-
-		.hero-text {
-			font-size: 3rem; 
-			margin-top: 30px;
-		}
+	and (min-device-width: 320px) {
 
 	}
-
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 375px) {
-  				.bg {
-			background-position-x: 80%;
-		}
-
-		.home-text p {
-			font-size: 2.5rem; 
-		}
-
-		.name b {
-			font-size: 12rem; 
-		}
-
-		.home {
-			width: 80%;
-			margin-top: 15px;
-		}
-
-		.home-button a {
-			font-size: 3rem;
-		}
-
-		.hero-text {
-			font-size: 3rem; 
-			margin-top: 30px;
-		}
- }
-
- @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) {
-		.bg {
-			background-position-x: 80%;
-		}
-
-		.home-text p {
-			font-size: 1.5rem; 
-		}
-
-		.name b {
-			font-size: 9rem; 
-		}
-
-		.home {
-			width: 80%;
-			margin-top: 15px;
-		}
-
-		.home-button a {
-			font-size: 1.7rem;
-		}
-
-		.hero-text {
-			font-size: 2rem; 
-			margin-top: 30px;
-		}
-  }
-
-  @media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) {
-  		.bg {
-			background-position-x: 80%;
-		}
-
-		.home-text p {
-			font-size: 2rem; 
-		}
-
-		.name b {
-			font-size: 9rem; 
-		}
-
-		.home {
-			width: 80%;
-			margin-top: 165px;
-		}
-
-		.home-button a {
-			font-size: 1.7rem;
-		}
-
-		.hero-text {
-			font-size: 1.8rem; 
-			margin-top: 30px;
-		}
-  }
-
-  @media only screen 
-  and (device-width: 736px) {
-  		.bg {
-			background-position-x: 80%;
-		}
-
-		.home-text p {
-			font-size: 2rem; 
-		}
-
-		.name b {
-			font-size: 9rem; 
-		}
-
-		.home {
-			width: 80%;
-			margin-top: 165px;
-		}
-
-		.home-button a {
-			font-size: 1.7rem;
-		}
-
-		.hero-text {
-			font-size: 1.8rem; 
-			margin-top: 30px;
-		}
-  }
-
-  @media only screen 
-  	(device-width: 414px) {
-  		.bg {
-			background-position-x: 80%;
-		}
-
-		.home-text p {
-			font-size: 2rem; 
-		}
-
-		.name b {
-			font-size: 9rem; 
-		}
-
-		.home {
-			width: 80%;
-			margin-top: 162px;
-		}
-
-		.home-button a {
-			font-size: 1.7rem;	
-		}
-
-		.hero-text {
-			font-size: 1.8rem; 
-			margin-top: 30px;
-		}
-  }
-
-  @media only screen 
-  and (min-device-width: 775px) 
-  and (max-device-width: 812px) {
-  		.bg {
-			background-position-x: 80%;
-		}
-
-		.home-text p {
-			font-size: 1.5rem; 
-		}
-
-		.name b {
-			font-size: 9rem; 
-		}
-
-		.home {
-			width: 80%;
-			margin-top: 15px;
-		}
-
-		.home-button a {
-			font-size: 1.7rem;
-		}
-
-		.hero-text {
-			font-size: 1.8rem; 
-			margin-top: 30px;
-		}
-
-  }
-
-  @media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) {
-  	  		.bg {
-			background-position-x: 80%;
-		}
-
-		.home-text p {
-			font-size: 1.5rem; 
-		}
-
-		.name b {
-			font-size: 5.5rem; 
-		}
-
-		.home {
-			width: 80%;
-			margin-top: 15px;
-		}
-
-		.home-button a {
-			font-size: 1.7rem;
-		}
-
-		.hero-text {
-			font-size: 1.8rem; 
-			margin-top: 30px;
-		}
-  }
-
-    @media screen 
-  and (min-device-width: 1000px) 
-  and (max-device-width: 1025px){
-  	 	  		.bg {
-			background-position-x: 80%;
-		}
-
-		.home-text p {
-			font-size: 1.5rem; 
-		}
-
-		.name b {
-			font-size: 9rem; 
-		}
-
-		.home {
-			width: 80%;
-			margin-top: 15px;
-		}
-
-		.home-button a {
-			font-size: 1.7rem;
-		}
-
-		.hero-text {
-			font-size: 1.8rem; 
-			margin-top: 30px;
-		}
-  }
-
-     @media screen 
-  and (min-device-width: 370px) 
-  and (max-device-width: 375px){
-  	 	  		.bg {
-			background-position-x: 88%;
-		}
-
-		.home-text p {
-			font-size: 2.5rem; 
-		}
-
-		.name b {
-			font-size: 10rem; 
-		}
-
-		.home {
-			width: 80%;
-			margin-top: 15px;
-		}
-
-		.home-button a {
-			font-size: 2.7rem;
-		}
-
-		.hero-text {
-			font-size: 2.5rem; 
-			margin-top: 30px;
-		}
-  }
-
