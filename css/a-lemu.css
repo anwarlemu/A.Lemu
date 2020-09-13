@@ -1,12 +1,12 @@
 header{text-align: center; padding-top: 50px;}
-h1{font-size: 50px;font-family: Advent Pro;}
+h1{font-size: 50px;font-family: Overpass;}
 .big{font-size: 30px}
-p{font-size: 1.8rem; font-family: Advent Pro; padding-left: 150px; padding-right: 150px;}
+p{font-size: 1.8rem; font-family: Overpass; padding-left: 150px; padding-right: 150px;}
 header img{border-radius: 200px; widows: 400px; border: 5px solid #49429b;}
-button{font-family: Advent Pro;}
+button{font-family: Overpass;}
 a{text-decoration: none;}
 body{text-align: center; margin: 0}
-.bg {    background-image: url(../img/new-background.jpg);
+.bg {    background-image: url(../img/tokyo-bridge.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -17,33 +17,33 @@ body{text-align: center; margin: 0}
     background-position-y: bottom;
 	height: 100vh;}
 b{
-	font-family: Advent Pro
+	font-family: Overpass
 	color: #d28f68 ;}
 .topnav a{
 	color: #e0d2db;
 	text-align: right;
 	padding: 35px 35px;
-	font-family: Advent Pro;
+	font-family: Overpass;
 	text-decoration: none;}
 .topnav a.active{
 	color: #49429b;}
 .button{
 	border: none;
-	font-family: Advent Pro;
+	font-family: Overpass;
 	background-color: #1d1b55;
 	padding: 15px 30px;
 	border-radius: 15px;}
 .button button{
 	background-color: #1d1b55;}
 .bio{}
-.experiences{font-family: Advent Pro;}
+.experiences{font-family: Overpass;}
 .footer {
 	color: #1d1b55; overflow: hidden; padding-bottom: 2px; padding-top: 15px;}
 .footer footer{
 	color: lightgrey;
 	text-align: left;
 	padding: 35px 35px;
-	font-family: Oswald, Advent Pro;
+	font-family: Overpass,Oswald,Advent Pro;
 	text-decoration: none;
 	opacity: 60%;
 	font-size: 12px;}
@@ -53,7 +53,7 @@ b{
 	width: : 100%; 
 	}
 .card {
-	font-family: Advent Pro;
+	font-family: Overpass;
 	background-size: cover;
 	background-position: 0px 390px;
 	padding: 50px;
