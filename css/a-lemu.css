@@ -1,8 +1,8 @@
 header{text-align: center; padding-top: 50px;}
 h1{font-size: 50px;font-family: futura pt;}
 .big{font-size: 30px}
-p{font-size: 1.8rem; font-family: "futura pt"; padding-left: 150px; padding-right: 150px;}
-header img{border-radius: 200px; widows: 400px; border: 5px solid #49429b;}
+p{font-size: 16px; font-family: "proxima-nova"; padding-left: 150px; padding-right: 150px;}
+header img{border-radius: 200px; widows: 400px; border: 5px solid black;}
 button{font-family: "futura pt";}
 a{text-decoration: none;}
 body{text-align: center; margin: 0}
@@ -17,10 +17,10 @@ body{text-align: center; margin: 0}
     background-position-y: bottom;
 	height: 100vh;}
 b{
-	font-family: "futura pt"
+	font-family: "proxima-nova"
 	color: #d28f68 ;}
 .topnav a{
-	color: #e0d2db;
+	color: #666;
 	text-align: right;
 	padding: 35px 35px;
 	font-family: "futura pt";
@@ -30,7 +30,7 @@ b{
 .button{
 	border: none;
 	font-family: "futura pt";
-	background-color: #1d1b55;
+	background-color: transparent;
 	padding: 15px 30px;
 	border-radius: 15px;}
 .button button{
@@ -38,9 +38,9 @@ b{
 .bio{}
 .experiences{font-family: "futura pt";}
 .footer {
-	color: #1d1b55; overflow: hidden; padding-bottom: 2px; padding-top: 15px;}
+	color: transparent; overflow: hidden; padding-bottom: 2px; padding-top: 15px;}
 .footer footer{
-	color: lightgrey;
+	color: black;
 	text-align: left;
 	padding: 35px 35px;
 	font-family: "futura pt",Oswald,Advent Pro;
