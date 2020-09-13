@@ -145,13 +145,77 @@ b{
 }
 
 .sub-text p {
-
+	font-size: 18px;
 }
 
 
 /* Media Queries*/
 
 @media only screen
-	and (max-device-width: 320px) {
-		
+	and (max-device-width: 325px) {
+		.name b {
+			font-size: 45px;
+			}
+
+		.homepage {
+			margin-top: 85px;
+		}
+
+		p {
+			font-size: 35px;
+		}
+
+		.home-button a {
+			font-size: 35px;
+
+		}
+
+
 	}
+
+@media only screen
+	and (max-device-width: 375px) {
+		.name b {
+			font-size: 45px;
+			}
+
+		.homepage {
+			margin-top: 85px;
+		}
+
+		p {
+			font-size: 35px;
+		}
+
+		.home-button a {
+			font-size: 35px;
+
+		}
+
+
+	}
+
+
+
+@media only screen
+	and (max-device-width: 425px) {
+		.name b {
+			font-size: 45px;
+			}
+
+		.homepage {
+			margin-top: 85px;
+		}
+
+		p {
+			font-size: 35px;
+		}
+
+		.home-button a {
+			font-size: 35px;
+
+		}
+
+
+	}
+
