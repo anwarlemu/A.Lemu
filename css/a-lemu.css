@@ -24,7 +24,8 @@ b{
 	text-align: right;
 	padding: 35px 35px;
 	font-family: "futura pt";
-	text-decoration: none;}
+	text-decoration: none;
+	font-size: 17px;}
 .topnav a.active{
 	color: black;}
 .button{
@@ -148,16 +149,47 @@ b{
 	font-size: 18px;
 }
 
+.mission-statement i {
+	color: #808080;
+}
+
+.mission-statement h2 {
+	color: black; 
+	font-family: Arial;
+	font-weight: lighter; 
+	font-size: 35px;
+}
+
+.mission-statement {
+	margin-right: 450px;
+	margin-left: 450px;
+}
+
 
 /* Media Queries*/
 
 @media only screen
 	and (max-device-width: 325px) {
+
+		.mission-statement {
+			margin-right: 100px;
+			margin-left: 100px;
+		}
+
+		.mission-statement h2 {
+			margin-top: 320px;
+			margin-bottom: -18px;
+		}
+
+		.topnav a {
+			font-size: 30px;
+		}
+
 		.name b {
 			font-size: 45px;
 			}
 
-		.homepage {
+		.home-page {
 			margin-top: 85px;
 		}
 
@@ -175,11 +207,26 @@ b{
 
 @media only screen
 	and (max-device-width: 375px) {
+
+		.mission-statement {
+			margin-right: 100px;
+			margin-left: 100px;
+		}
+
+		.mission-statement h2 {
+			margin-top: 320px;
+			margin-bottom: -18px;
+		}
+
+		.topnav a {
+			font-size: 30px;
+		}
+
 		.name b {
 			font-size: 45px;
 			}
 
-		.homepage {
+		.home-page {
 			margin-top: 85px;
 		}
 
@@ -199,11 +246,26 @@ b{
 
 @media only screen
 	and (max-device-width: 425px) {
+
+		.mission-statement {
+			margin-right: 100px;
+			margin-left: 100px;
+		}
+
+		.mission-statement h2 {
+			margin-top: 320px;
+			margin-bottom: -18px;
+		}
+
 		.name b {
 			font-size: 45px;
 			}
 
-		.homepage {
+		.topnav a {
+			font-size: 30px;
+			}
+
+		.home-page {
 			margin-top: 85px;
 		}
 
@@ -219,3 +281,17 @@ b{
 
 	}
 
+@media only screen
+	and (max-device-width: 770px) {
+
+		.mission-statement {
+			margin-right: 100px;
+			margin-left: 100px;
+		}
+
+		.mission-statement h2 {
+			margin-top: 70px;
+			margin-bottom: -90px;
+		}
+
+	}
