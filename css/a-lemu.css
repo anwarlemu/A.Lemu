@@ -287,6 +287,7 @@ b{
 
 
 @media only screen
+	and (min-device-width: 400px)
 	and (max-device-width: 425px) {
 
 		.mission-statement {
@@ -329,6 +330,7 @@ b{
 	}
 
 @media only screen
+	and (min-device-width: 750px)
 	and (max-device-width: 770px) {
 
 		.mission-statement {
