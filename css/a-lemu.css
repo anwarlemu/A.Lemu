@@ -210,7 +210,7 @@ b{
 		}
 
 		.merch a {
-	 font-size: 22px;
+	 font-size: 55px;
 		}
 
 		.mission-statement h2 {
@@ -250,6 +250,11 @@ b{
 			margin-left: 100px;
 		}
 
+		.merch a {
+	 		font-size: 55px;
+		}
+
+		
 		.mission-statement h2 {
 			margin-top: 320px;
 			margin-bottom: -18px;
