@@ -210,7 +210,7 @@ b{
 		}
 
 		.merch a {
-	 		font-size: 25px;
+	 		font-size: 45px;
 		}
 
 		.mission-statement h2 {
@@ -219,7 +219,7 @@ b{
 		}
 
 		.topnav a {
-			font-size: 30px;
+			font-size: 25px;
 		}
 
 		.name b {
@@ -262,7 +262,7 @@ b{
 		}
 
 		.topnav a {
-			font-size: 30px;
+			font-size: 25px;
 		}
 
 		.name b {
@@ -297,7 +297,7 @@ b{
 		}
 
 		.merch a {
-	 		font-size: 25px;
+	 		font-size: 45px;
 		}
 
 		
@@ -311,7 +311,7 @@ b{
 			}
 
 		.topnav a {
-			font-size: 30px;
+			font-size: 25px;
 			}
 
 		.home-page {
@@ -340,7 +340,7 @@ b{
 		}
 
 		.merch a {
-	 		font-size: 25px;
+	 		font-size: 27px;
 		}
 
 		
@@ -349,4 +349,7 @@ b{
 			margin-bottom: -90px;
 		}
 
+		.topnav a {
+			
+		}
 	}
