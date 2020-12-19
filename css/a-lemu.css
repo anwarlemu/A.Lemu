@@ -195,6 +195,10 @@ b{
 	font-weight: lighter;
 }
 
+.archive-text a {
+	color: black;
+}
+
 .merch p {
 	color: #424242;
 }
